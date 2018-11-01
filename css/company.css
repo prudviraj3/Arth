@@ -1,0 +1,110 @@
+.company-section {
+    background-color: rgb(17, 45, 85);
+    color: #fff;
+    height: 100vh;
+    background-image: url(../images/OurCompany_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company-section .company-herotext {
+    display: grid;
+    align-items: center;
+    height: inherit;
+    width: 60vh;
+    margin-left: 5%;
+}
+
+.company-section .company-herotext p {
+    font: 400;
+}
+
+/*profile-section*/
+.profile-section {
+    padding: 5%;
+
+}
+
+
+.profile-text {
+    align-items: center;
+}
+
+.profile-text-right {
+    border-left: 1px solid #9aaab7;
+    padding-left: 30px;
+    color: #0e104b;
+
+}
+
+.profile-text-right h3 {
+    font-weight: 600;
+}
+
+.profile-text-right::after {
+    content: url(../img/right-quotes-symbol.png);
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.profile-text-right::before {
+    content: url(../img/left-quotes-sign.png);
+    justify-content: center;
+    display: flex;
+
+}
+
+/*Our Culture*/
+.ourculture {
+    background-color: #202a2b;
+    color: #fff;
+}
+
+.ourculture > div div:nth-child(2) img {
+    width: 100%;
+}
+
+.profile2 {
+    width: 80%;
+    margin: 0 auto;
+    border-left: none;
+}
+
+.ourculture-section2 {
+    position: relative;
+    top: -86px;
+}
+
+.leadership-section {}
+
+.wrap-section {
+    margin: 40px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+}
+
+.ourvalues-bg {
+    background-color: rgb(32, 42, 43);
+    color: #fff;
+}
+
+.ourvalues {
+    border-bottom: 1px solid #fff;
+}
+
+.ourvalues h2 {
+    font-size: 15vh;
+}
+
+
+
+
+
+@media (max-width: 575px) {
+    .ourvalues h2 {
+        font-size: 9vh;
+    }
+}

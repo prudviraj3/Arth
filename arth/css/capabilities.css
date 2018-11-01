@@ -1,0 +1,119 @@
+.services-phase1 {
+    position: relative;
+
+}
+
+.services-img {
+    width: 100%;
+    max-width: 160vh;
+    height: auto;
+    position: relative;
+}
+
+.services-box {
+    background-color: #005826;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 12vh;
+    z-index: 5;
+    right: 0;
+    color: #8bc03c;
+}
+
+.top-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 165px;
+
+}
+
+.top-section-left {
+    width: 130px;
+    position: absolute;
+    border-right: 1px solid #38804e;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.top-section-left-top {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-section-left-top h3 {
+    font-size: 13px;
+}
+
+.top-section-left-bottom h3 {
+    font-size: 13px;
+}
+
+.top-section-left-bottom h4 {
+    font-size: 53px;
+}
+
+.top-section-left-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 126px;
+    border-top: 1px solid #38804e;
+}
+
+.bottom-section {
+    border-top: 1px solid #38804e;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    top: 165px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-section p {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.services-text {
+    max-width: 100vh;
+    color: #000;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .services-box {
+        width: 100%;
+        position: inherit;
+        top: 0%;
+        margin-top: 0px !important;
+    }
+
+    .services-phase2 .services-text {
+        float: left;
+        margin: 2% 0%;
+    }
+
+    .softwarebox-wrap {
+        display: initial;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .capabilities-herotext {
+        width: 55vh;
+    }
+}

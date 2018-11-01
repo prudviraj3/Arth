@@ -1,0 +1,40 @@
+/*footer*/
+.footer-section {
+    background-color: #202a2b;
+    color: #fff;
+}
+
+.footer-section .footer-img {
+    width: 40%;
+}
+
+.copyright-logo ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.copyright-logo ul li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 18px;
+    width: 36px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+@media (max-width: 767px) {
+
+    .footer-section {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .footer-section .footer-img {
+        width: 50%;
+    }
+}
+
+/*END OF footer*/
